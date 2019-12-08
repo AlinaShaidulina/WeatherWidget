@@ -9,7 +9,65 @@ body {
 
 .widget {
     background: url("../img/Paris.png") center no-repeat;
-    background-size: contain;
+    background-size: cover;
     width: 700px;
     height: 435px;
+    color: white;
+    padding: 80px 70px 0 60px;
+}
+
+.widget_main {
+    display: flex;
+    justify-content: flex-end;
+}
+
+.calendar {
+    font-family: 'latolight', sans-serif;
+    font-size: 14px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 5px 30px 0;
+}
+
+.calendar span {
+    font-size: 30px;
+}
+
+.weather {
+
+}
+
+.weather_temp {
+    font-family: 'latoblack', sans-serif;
+    font-size: 92px;
+}
+
+.weather_city {
+    font-family: 'latolight', sans-serif;
+    font-size: 22px;
+    margin-bottom: 20px;
+}
+
+.weather_wind {
+    display: flex;
+    align-items: center;
+}
+
+.weather_wind i {
+    font-size: 28px;
+    margin-right: 10px;
+}
+
+.weather_wind__speed {
+    font-family: 'latobold', sans-serif;
+    font-size: 13px;
+}
+
+.weather_wind__speed span {
+    font-size: 30px;
+}
+
+h1, p {
+    margin: 0;
 }
