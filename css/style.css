@@ -1,7 +1,6 @@
 body {
     width: 100%;
     height: 100vh;
-    margin: 0;
     background-color: black;
     display: flex;
     justify-content: center;
@@ -9,7 +8,7 @@ body {
 }
 
 .widget {
-    background: url("img/Paris.png") center no-repeat;
+    background: url("../img/Paris.png") center no-repeat;
     background-size: contain;
     width: 700px;
     height: 435px;
